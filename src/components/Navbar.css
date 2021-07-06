@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+.bt{
+    color: aliceblue;
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.das{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    color: aliceblue;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+.bt:focus{
+    background: rgb(238, 255, 255);
+    color: black;
+}
+.bt:hover{
+    color: rgb(255, 255, 255);
+    text-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+}
+.das:hover{
+    color: rgb(255, 255, 255);
+ 
+}
+.dropdo{
+    display: none;
+}
+@media screen and (max-width:992px){
+    .nabfr{
+        display: none !important;
+    }
+    .dropdo{
+        display: block;
+        width: 100vh;    
+    }
+    .refer{
+        color: azure;
+        font-size: 30px;
+    }
+    .refer:visited{
+        color: azure;
+    }
+    .dm{
+        font-size: 19px;
+        padding-inline: 40px;
+    }
+}

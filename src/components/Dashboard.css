@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+.grafica{
+    width: 100%;
+    margin-top: 3%;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+}
+.todo2{
+    margin-top: 9%;
+
+}
+.todo{
+    margin-top: 2%;
+    display:inline-block !important;
+
+}
+.mag{
+    margin-left: 12%;
+}
+.fontz{
+    font-size: 22px;
+}
+.text-black-50{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+}
+.hola2{
+    text-align: center;
+    margin-top: 1%;
+
+}
+.hola{
+    text-align: center;
+    margin-top: 6%;
+
+}
+.imagenH{
+   width: 200px;
+   display: block;
+   margin-top: 10px;
+   border-radius: 15px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.card{
+    border-radius: 20px;
+}
+.cobrar{
+    font-size: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.verd{
+    background-color: rgba(75, 192, 192, 0.788) !important;
+    color: white;
+    border-radius: 10px;
+}
+.az{
+background-color: rgba(54, 163, 235, 0.753) !important;
+color: white;
+border-radius: 10px;
+
+}
+.rd{
+    background-color: rgba(255, 99, 133, 0.719) !important;
+    color: white;
+    border-radius: 10px;
+    
+}
+.verd2{
+    color: rgb(75, 192, 192) ;
+    font-weight: 700;
+    border: rgb(75, 192, 192) 1px inset;
+    
+}
+.az2{
+    color: rgba(54, 163, 235, 0.753) ;
+    font-weight: 700;
+    border: rgba(54, 163, 235, 0.753) 1px inset;
+    
+
+}
+.rd2{
+    color: rgb(255, 99, 133) ;
+    font-weight: 700;
+    border: rgb(255, 99, 133) 1px inset;
+
+}
+.tablaas{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bt2{
+    border: black 1px solid !important;
+    background: none;
+    color: black;
+}
+.bt2:hover{
+    background: rgb(248, 255, 253);
+    color: black;
+}
+@media screen and (max-width:615px) {
+    .tarjeta{
+        margin-inline: 3%;
+    }
+    
+}
